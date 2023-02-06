@@ -1,11 +1,10 @@
 import asyncio
 import random
 
-global count_1
-global count_2
-
 
 async def random_writer(string):
+    global count_1
+    global count_2
     count_1 = 0
     count_2 = 0
     for i in range(10):
